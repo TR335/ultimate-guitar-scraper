@@ -15,6 +15,7 @@ func main() {
 	app.Version = "0.0.1"
 	app.Commands = []cli.Command{
 		cmd.FetchTab,
+		cmd.SearchTab,
 	}
 	_ = app.Run(os.Args)
 
